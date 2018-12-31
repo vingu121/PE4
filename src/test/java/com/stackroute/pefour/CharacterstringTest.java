@@ -10,16 +10,17 @@ public class CharacterstringTest {
 
     @Test
     public void characterString() {
-        assertEquals(" count number of occurrence of a in the given string", obj.characterString("Java is java again java again"));
+
+        assertEquals(10, obj.characterString("Java is java again java again" , 'a'));
     }
 
     @Test
     public void characterString1() {
-        assertEquals("s", obj.characterString("sea shells the shore"));
+        assertEquals(4, obj.characterString("sea shells the shore", 's'));
     }
     @Test
     public void characterString2() {
-        assertEquals("c", obj.characterString("cats camel chandu charger"));
+        assertEquals(4, obj.characterString("cats camel chandu charger",'c'));
     }
 
     }
