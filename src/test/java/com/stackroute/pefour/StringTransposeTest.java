@@ -21,7 +21,7 @@ public class StringTransposeTest {
     public void transpose() {
 
         //act
-        String  expected = "a  kciuq  nworb  xof  spmuj  revo  eht  yzal  god";
+        String  expected = "a kciuq nworb xof spmuj revo eht yzal god";
 
 
         //arrange
